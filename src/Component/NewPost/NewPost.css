@@ -1,0 +1,35 @@
+#SendSection{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#PostStyle{
+    height: 85px;
+    width: 85%;
+    border: 2px solid hsl(223, 19%, 93%);
+    border-radius: 5px;    
+}
+#SendSection > ::placeholder{  
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: larger;
+}
+#sendnewpost{
+    height:40px;
+    width: 10%;
+    border: none;
+    background-color: rgb(61, 61, 144);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+#comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 30px;
+    border-left: rgb(184, 184, 184) 2px solid  ;
+    width: 70%;
+}
+ 

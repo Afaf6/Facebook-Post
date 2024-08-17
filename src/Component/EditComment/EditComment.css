@@ -1,0 +1,35 @@
+.commentlable{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    margin-left: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.btn{
+    background-color: transparent;
+     border: none;
+     cursor: pointer; 
+   }
+
+   #delbtn{
+    color:hsl(358, 79%, 66%) ;
+  padding: 5px;
+   }
+
+   #Editbtn{
+    color: hsl(238, 40%, 52%);
+  }
+  #buttons{
+    display: flex;
+    justify-content:left;
+    flex-direction: row;
+    column-gap:5px;
+    text-align: left;
+  }
+#textcomment{
+  display: flex;
+  flex-direction: row;
+}

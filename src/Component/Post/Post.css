@@ -1,0 +1,64 @@
+#Poststyle{
+  background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+#counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  width: 30px;
+  margin: 10px;
+  background-color: hsl(223, 19%, 93%);
+}
+#counter > button{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  height: 100%;
+}
+#counter > span{
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+.text {
+  margin: 10px;
+}
+
+.btn{
+ background-color: transparent;
+  border: none;
+  cursor: pointer; 
+}
+#Delbtn{
+  color:hsl(358, 79%, 66%) ;
+  padding: 5px;
+}
+#Relbtn{
+  color: hsl(238, 40%, 52%);
+}
+#buttons{
+  display: flex;
+  justify-content:left;
+  flex-direction: row;
+  column-gap:5px;
+  text-align: left;
+}
+#countercomment{
+  margin-left: 40px;
+  border-left: rgb(184, 184, 184) 2px solid  ;
+}

@@ -1,0 +1,34 @@
+{
+    "users" : [
+        
+       {"likes": "0",
+      "Pic" : "src/assets/Images/pic1.png" , 
+      "Name": "amyrobson", 
+      "OnlineTime" : "1 month ago", 
+      "Paragraph" : "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well." ,
+      "id" : "1",
+      "comment":[ ] } ,
+
+      { "likes": "0",
+       "Pic" : "src/assets/Images/pic2.png", 
+        "Name" : "maxblangun", 
+        "OnlineTime" : "2 weeks ago", 
+        "Paragraph" : "Woah your project looks awesome! How long have you been coding for? I'm still new. but think I want to dive into React into React as well soon. Perhaps you can give me an insight on where I can learn React? THanks!", 
+        "id" : "2" ,
+        "comment" : [
+          {"likes":0,
+            "id" : 1,
+            "Pic" : "src/assets/Images/pic4.png",
+            "Name":"ramsesmiron",
+            "commenttext":"Woah your project looks awesome! How long have you been codi"
+          },
+          {"likes":0,
+            "id" : 2,
+            "Pic" : "src/assets/Images/pic3.png",
+            "Name":"juliusomo",
+            "commenttext":"Woah your project looks awesome! How long have you been codi"
+          }
+    ] 
+      }
+
+    ]}

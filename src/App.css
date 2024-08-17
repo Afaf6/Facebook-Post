@@ -1,0 +1,11 @@
+#postwrapper{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:nowrap;
+    margin: auto;
+
+}
