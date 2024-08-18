@@ -21,7 +21,7 @@ function NewPost(props) {
     return (
         <div id="SendSection">
             <img src={Pic3}/>
-        <input id="PostStyle" 
+        <input id="PostStyleadd" 
         placeholder="Add a comment......"
         value={inputvalue} onChange={handleOnChange}></input>
         <button id="sendnewpost" onClick={handleSendPost}>Send</button>

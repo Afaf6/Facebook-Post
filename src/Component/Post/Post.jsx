@@ -43,9 +43,10 @@ function Post(props) {
           <div id="Label">
 
             <div id="header">
+                <div id="mainpost">
                 <img src={props.Pic} />
                 <h4 className="text"> {props.Name} </h4>
-                <span className="text"> {props.OnlineTime} </span>
+                <span className="text"> {props.OnlineTime} </span></div>
                 
                 <div id="buttons">
 

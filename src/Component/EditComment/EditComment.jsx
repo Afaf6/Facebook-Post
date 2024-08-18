@@ -46,28 +46,22 @@ function EditComment ({comment, postid, deleteComment, editComment, likes}) {
 
     return (
         <div className="commentlable">
+  
           <div id="counter">
                <button onClick={Add}>  <img src={IconPlus} />  </button>
                <span>{count}</span>
                <button onClick={Minus}>  <img src={IconMinus} />  </button>
-          </div>
-
-                   <img className="pic"
+           </div>
+             <div id="main">
+                   <div id="commenttext">
+                    <div id="namecomment">
+                    <img className="pic"
                    src={comment.Pic}/>
+                  
                    <h4 className="text"> {comment.Name} </h4>
-                 <span className="text"> {comment.OnlineTime} </span>
-
-                    {ShowEditComment == true ? (
-                        <div id="textcomment">
-                        <input value={inputvalue} onChange={HandleOnChange}></input>
-                        <button onClick={Hnadleupdate}> Update </button>
-
-                        </div>
-                        ) : (<p>{comment.commenttext}</p> )}
-                      
-                      
+                 <span className="text"> {comment.OnlineTime} </span></div>
+             
                       <div id="buttons">
-
 
                         {comment.Name == "juliusomo" ? (
                           <button 
@@ -84,15 +78,23 @@ function EditComment ({comment, postid, deleteComment, editComment, likes}) {
                         {comment.Name == "juliusomo" ?
                         (<button 
                           uniqId={comment.commentid}
-                         id="Edirbtn"
+                         id="Editbtn"
                         className="btn"
                         onClick={HandleEditComment} >
                         <img 
                         src={EditIcon} />
                         Edit
-                     </button>) : null }
+                     </button>) : null }</div></div>
+
+                     {ShowEditComment == true ? (
+                        <div id="textcomment">
+                        <input value={inputvalue} onChange={HandleOnChange}></input>
+                        <button onClick={Hnadleupdate}> Update </button>
+                        </div>
+                        ) : (<div id="postcomment"> <p>{comment.commenttext}</p> </div>  )}
                       
                       </div>
+                      
                     
                     
                 

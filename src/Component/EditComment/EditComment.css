@@ -4,14 +4,47 @@
     border-radius: 10px;
     margin: 10px;
     display: flex;
+    flex-direction: row;
+    column-gap: 10px;
     margin-left: 50px;
     width: 100%;
     box-sizing: border-box;
+}
+#main{
+  display: flex;
+  flex-direction:column;
+}
+#namecomment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2px;
+  align-self: center;
+  flex-wrap: wrap;
+}
+#counter{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#postcomment{
+  display: flex;
+  flex-direction:column;
+  row-gap: 10px;
+}
+#commenttext{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+
 }
 .btn{
     background-color: transparent;
      border: none;
      cursor: pointer; 
+     
    }
 
    #delbtn{
@@ -19,17 +52,25 @@
   padding: 5px;
    }
 
-   #Editbtn{
+#Editbtn{
     color: hsl(238, 40%, 52%);
-  }
-  #buttons{
-    display: flex;
-    justify-content:left;
-    flex-direction: row;
-    column-gap:5px;
-    text-align: left;
   }
 #textcomment{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#textcomment input{
+  width:100%;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid rgb(165, 164, 164);
+}
+#textcomment button{
+  width: 50%;
+  height: 50px;
+  background-color: hsl(238, 40%, 52%) ;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }

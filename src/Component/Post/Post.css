@@ -6,6 +6,10 @@
     display: flex;
 }
 
+#mainpost{
+  display: flex;
+  flex-direction: row;
+}
 #counter{
   display: flex;
   flex-direction: column;
@@ -34,6 +38,7 @@
   flex-direction: row;
   align-items: center;
   column-gap: 5px;
+  justify-content: space-between;
 }
 .text {
   margin: 10px;

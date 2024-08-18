@@ -7,11 +7,12 @@
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+    width: 100%;
 }
 
-#PostStyle{
+#PostStyleadd{
     height: 85px;
-    width: 85%;
+    width: 100%;
     border: 2px solid hsl(223, 19%, 93%);
     border-radius: 5px;    
 }
@@ -19,6 +20,7 @@
     padding-left: 10px;
     padding-top: 0;
     font-size: larger;
+    
 }
 #sendnewpost{
     height:40px;
@@ -33,3 +35,6 @@
     display: flex;
     cursor: pointer;
 }
+/* #SendSection input{
+    border: 1px solid gray ;
+} */
