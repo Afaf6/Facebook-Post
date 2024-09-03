@@ -6,7 +6,8 @@ import Pic2 from "../src/assets/Images/pic2.png";
 import Pic3 from "../src/assets/Images/pic3.png";
 import Pic4 from "../src/assets/Images/pic4.png";
 import NewPost from './Component/NewPost/NewPost';
-import { useEffect, useState } from 'react';
+import {useState} from "react";
+// import { useEffect, useState } from 'react';
 
 function App() {
   const [ArrayOfObject, setArrayOfObject] = useState([
